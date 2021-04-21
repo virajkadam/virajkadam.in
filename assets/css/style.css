@@ -38,11 +38,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i {
-	font-size: 24px;
-	position: absolute;
-	top: 7px;
-	left: 8px;
-}
+    font-size: 32px;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+}}
 
 .back-to-top:hover {
 	color: #fff;
@@ -73,8 +73,8 @@ h1, h2, h3, h4, h5, h6 {
 	border-top-color: #fff;
 	border-bottom-color: #fff;
 	border-radius: 50%;
-	width: 60px;
-	height: 60px;
+	width: 40px;
+	height: 40px;
 	-webkit-animation: animate-preloader 1s linear infinite;
 	animation: animate-preloader 1s linear infinite;
 }
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a i {
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .nav-menu a span {
@@ -241,79 +241,79 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
 	width: 100%;
 	height: 100vh;
-  background: url("../img/hero-bg.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;}
+	background: url("http://virajkadam.com/img/viraj-kadam-image.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;}
 
-@media (min-width: 992px) {
-	#hero {
-		padding-left: 160px;
+	@media (min-width: 992px) {
+		#hero {
+			padding-left: 160px;
+		}
 	}
-}
 
-#hero:before {
-	content: "";
-	background: rgba(0, 0, 0, 0.4);
-	position: absolute;
-	bottom: 0;
-	top: 0;
-	left: 0;
-	right: 0;
-}
-
-#hero h1 {
-	margin: 0;
-	font-size: 64px;
-	font-weight: 700;
-	line-height: 56px;
-	color: #fff;
-}
-
-#hero p {
-	color: #fff;
-	margin: 15px 0 0 0;
-	font-size: 26px;
-	font-family: "Poppins", sans-serif;
-}
-
-#hero p span {
-	color: #56adff;
-	letter-spacing: 1px;
-}
-
-#hero .social-links {
-	margin-top: 30px;
-}
-
-#hero .social-links a {
-	font-size: 24px;
-	display: inline-block;
-	color: #fff;
-	line-height: 1;
-	margin-right: 20px;
-	transition: 0.3s;
-}
-
-#hero .social-links a:hover {
-	color: #56adff;
-}
-
-@media (max-width: 992px) {
-	#hero {
-		text-align: center;
+	#hero:before {
+		content: "";
+		background: rgba(0, 0, 0, 0.4);
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		left: 0;
+		right: 0;
 	}
+
 	#hero h1 {
-		font-size: 32px;
-		line-height: 36px;
+		margin: 0;
+		font-size: 64px;
+		font-weight: 700;
+		line-height: 56px;
+		color: #fff;
 	}
+
 	#hero p {
-		margin-top: 10px;
-		font-size: 20px;
-		line-height: 24px;
+		color: #fff;
+		margin: 15px 0 0 0;
+		font-size: 26px;
+		font-family: "Poppins", sans-serif;
 	}
-}
+
+	#hero p span {
+		color: #56adff;
+		letter-spacing: 1px;
+	}
+
+	#hero .social-links {
+		margin-top: 30px;
+	}
+
+	#hero .social-links a {
+		font-size: 24px;
+		display: inline-block;
+		color: #fff;
+		line-height: 1;
+		margin-right: 20px;
+		transition: 0.3s;
+	}
+
+	#hero .social-links a:hover {
+		color: #56adff;
+	}
+
+	@media (max-width: 992px) {
+		#hero {
+			text-align: center;
+		}
+		#hero h1 {
+			font-size: 32px;
+			line-height: 36px;
+		}
+		#hero p {
+			margin-top: 10px;
+			font-size: 20px;
+			line-height: 24px;
+		}
+	}
 
 /*--------------------------------------------------------------
 # Sections General
