@@ -1,5 +1,5 @@
 <?php
-$base_url = $_SERVER['REQUEST_URI'];
+$base_url = 'https://virajkadam.com';
 ?>
 
 <!DOCTYPE html>
