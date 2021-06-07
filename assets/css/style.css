@@ -38,17 +38,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i {
-    font-size: 32px;
-    position: absolute;
-    top: 4px;
-    left: 6px;
-}}
+	font-size: 32px;
+	position: absolute;
+	top: 4px;
+	left: 6px;
+	}}
 
-.back-to-top:hover {
-	color: #fff;
-	background: #0678e3;
-	transition: background 0.2s ease-in-out;
-}
+	.back-to-top:hover {
+		color: #fff;
+		background: #0678e3;
+		transition: background 0.2s ease-in-out;
+	}
 
 /*--------------------------------------------------------------
 # Preloader
@@ -220,7 +220,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-	color: #45505b;
+	color: #fff;
+	font-size: 2em;
 }
 
 .mobile-nav-active {
