@@ -35,21 +35,21 @@ $base_url = 'https://virajkadam.com';
 	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-	<link rel="canonical" href="https://virajkadam.com/index.php">
-	<link rel="shortlink" href="https://virajkadam.com/index.php">
+	<link rel="canonical" href="<?=$base_url?>/index.php">
+	<link rel="shortlink" href="<?=$base_url?>/index.php">
 
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Viraj Kadam | Who is Viraj Kadam | Contact Viraj Kadam">
 	<meta property="og:description" content="Viraj Kadam is an indian software developer, nature explorer and dreamer. Viraj also likes try new food and read technology blogs. IOT and Programming being his favourite topics of reading viraj kadam likes to write articles sometimes.">
-	<meta property="og:url" content="https://virajkadam.com/">
+	<meta property="og:url" content="<?=$base_url?>/">
 	<meta property="og:site_name" content="Viraj Kadam">
 	<meta property="article:publisher" content="https://www.facebook.com/virajkadam1992/">
 	<meta property="article:updated_time" content="1589023717">
-	<meta property="og:image" itemprop="image" content="https://virajkadam.com/assets/img/viraj-kadam.jpg">
-	<meta property="og:image:url" content="https://virajkadam.com/assets/img/viraj-kadam.jpg">
-	<meta property="og:image:secure" content="https://virajkadam.com/assets/img/viraj-kadam.jpg">
-	<meta property="og:image:secure_url" content="https://virajkadam.com/assets/img/viraj-kadam.jpg">
+	<meta property="og:image" itemprop="image" content="<?=$base_url?>/assets/img/viraj-kadam.jpg">
+	<meta property="og:image:url" content="<?=$base_url?>/assets/img/viraj-kadam.jpg">
+	<meta property="og:image:secure" content="<?=$base_url?>/assets/img/viraj-kadam.jpg">
+	<meta property="og:image:secure_url" content="<?=$base_url?>/assets/img/viraj-kadam.jpg">
 	<meta property="og:image:alt" content="Viraj Kadam Image">
 	<meta property="og:image:width" content="720">
 	<meta property="og:image:height" content="602">
@@ -57,7 +57,7 @@ $base_url = 'https://virajkadam.com';
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Viraj Kadam | Who is Viraj Kadam | Contact Viraj Kadam">
 	<meta name="twitter:description" content="Viraj Kadam is an indian software developer, nature explorer and dreamer. Viraj also likes try new food and read technology blogs. IOT and Programming being his favourite topics of reading viraj kadam likes to write articles sometimes.">
-	<meta name="twitter:image" content="https://virajkadam.com/assets/img/viraj-kadam.jpg">
+	<meta name="twitter:image" content="<?=$base_url?>/assets/img/viraj-kadam.jpg">
 
 	<link href="<?=$base_url?>/assets/img/favicon.png" rel="icon">
 	<link href="<?=$base_url?>/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
