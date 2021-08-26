@@ -79,7 +79,6 @@ $base_url = 'https://virajkadam.com';
 				<li><a href="#about"><i class="fa fa-user"></i> <span>About</span></a></li>
 				<li><a href="#skills"><i class="fa fa-lightbulb-o"></i> <span>Skills</span></a></li>
 				<li><a href="#contact"><i class="fa fa-comments"></i> <span>Contact</span></a></li>
-				<li><a href="#survey"><i class="fa fa-check-square-o"></i> <span>Survey</span></a></li>
 			</ul>
 		</nav>
 	</header>
@@ -213,25 +212,6 @@ $base_url = 'https://virajkadam.com';
 			</div>
 		</section>
 
-
-
-
-		<section id="survey" class="contact">
-			<div class="container" data-aos="fade-up">
-
-				<div class="section-title">
-					<h2>Survey</h2>
-				</div>
-
-				<div class="row mt-1">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-
-						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScEn2Fp9iZJhxWkfWdBhd9xQNQsmb9vj7NQr88GOCBNlJievQ/viewform?embedded=true" width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-					</div>
-				</div>
-			</div>
-		</section>
 	</main>
 
 
