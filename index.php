@@ -1,5 +1,7 @@
 <?php
-$base_url = 'https://virajkadam.com';
+
+require_once('config.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -35,21 +37,21 @@ $base_url = 'https://virajkadam.com';
 	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-	<link rel="canonical" href="https://virajkadam.com/index.php">
-	<link rel="shortlink" href="https://virajkadam.com/index.php">
+	<link rel="canonical" href="<?=$base_url?>/index.php">
+	<link rel="shortlink" href="<?=$base_url?>/index.php">
 
 	<meta property="og:locale" content="en_US">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Viraj Kadam | Who is Viraj Kadam | Contact Viraj Kadam">
 	<meta property="og:description" content="Viraj Kadam is an indian software developer, nature explorer and dreamer. Viraj also likes try new food and read technology blogs. IOT and Programming being his favourite topics of reading viraj kadam likes to write articles sometimes.">
-	<meta property="og:url" content="https://virajkadam.com/">
+	<meta property="og:url" content="<?=$base_url?>/">
 	<meta property="og:site_name" content="Viraj Kadam">
 	<meta property="article:publisher" content="https://www.facebook.com/virajkadam1992/">
 	<meta property="article:updated_time" content="1589023717">
-	<meta property="og:image" itemprop="image" content="https://virajkadam.com/assets/img/viraj-kadam.jpg">
-	<meta property="og:image:url" content="https://virajkadam.com/assets/img/viraj-kadam.jpg">
-	<meta property="og:image:secure" content="https://virajkadam.com/assets/img/viraj-kadam.jpg">
-	<meta property="og:image:secure_url" content="https://virajkadam.com/assets/img/viraj-kadam.jpg">
+	<meta property="og:image" itemprop="image" content="<?=$base_url?>/assets/img/viraj-kadam.jpg">
+	<meta property="og:image:url" content="<?=$base_url?>/assets/img/viraj-kadam.jpg">
+	<meta property="og:image:secure" content="<?=$base_url?>/assets/img/viraj-kadam.jpg">
+	<meta property="og:image:secure_url" content="<?=$base_url?>/assets/img/viraj-kadam.jpg">
 	<meta property="og:image:alt" content="Viraj Kadam Image">
 	<meta property="og:image:width" content="720">
 	<meta property="og:image:height" content="602">
@@ -57,7 +59,7 @@ $base_url = 'https://virajkadam.com';
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Viraj Kadam | Who is Viraj Kadam | Contact Viraj Kadam">
 	<meta name="twitter:description" content="Viraj Kadam is an indian software developer, nature explorer and dreamer. Viraj also likes try new food and read technology blogs. IOT and Programming being his favourite topics of reading viraj kadam likes to write articles sometimes.">
-	<meta name="twitter:image" content="https://virajkadam.com/assets/img/viraj-kadam.jpg">
+	<meta name="twitter:image" content="<?=$base_url?>/assets/img/viraj-kadam.jpg">
 
 	<link href="<?=$base_url?>/assets/img/favicon.png" rel="icon">
 	<link href="<?=$base_url?>/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -79,7 +81,6 @@ $base_url = 'https://virajkadam.com';
 				<li><a href="#about"><i class="fa fa-user"></i> <span>About</span></a></li>
 				<li><a href="#skills"><i class="fa fa-lightbulb-o"></i> <span>Skills</span></a></li>
 				<li><a href="#contact"><i class="fa fa-comments"></i> <span>Contact</span></a></li>
-				<li><a href="#survey"><i class="fa fa-check-square-o"></i> <span>Survey</span></a></li>
 			</ul>
 		</nav>
 	</header>
@@ -107,7 +108,7 @@ $base_url = 'https://virajkadam.com';
 
 				<div class="row">
 					<div class="col-lg-4">
-						<img src="assets/img/viraj-kadam.jpg" class="img-fluid" alt="">
+						<img src="<?=$base_url?>/assets/img/viraj-kadam.jpg" class="img-fluid" alt="">
 					</div>
 					<div class="col-lg-8 pt-4 pt-lg-0 content">
 						<h3>Web Development to Wild Explorer</h3>
@@ -118,6 +119,42 @@ $base_url = 'https://virajkadam.com';
 							Viraj Kadam loves teaching and programming by heart and by prooffesion too. Also being a nature lover Viraj Kadam loves to wander and trek in natures womb.
 						</p>
 					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+
+
+		<section id="services" class="services">
+			<div class="container aos-init aos-animate" data-aos="fade-up">
+
+				<div class="section-title">
+					<h2>Services</h2>
+				</div>
+
+				<div class="row">
+
+					<div class="col-lg-4 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+						<a href="<?=$base_url?>/project/salary-calculator.php">
+							<div class="icon-box iconbox-blue text-center">
+								<i style="color:#7B1FA2; font-size:10em;" class="fa fa-money"></i>
+								<h4 class="text-center"> Salary Calculator</h4>
+							</div>
+						</a>
+					</div>
+
+
+					<div class="col-lg-4 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+						<a href="<?=$base_url?>/project/stock-dividend-calculator.php">
+							<div class="icon-box iconbox-blue text-center">
+								<i style="color:#7B1FA2; font-size:10em;" class="fa fa-line-chart"></i>
+								<h4 class="text-center"> Stock Dividend Calculator</h4>
+							</div>
+						</a>
+					</div>
+
 				</div>
 
 			</div>
@@ -213,25 +250,6 @@ $base_url = 'https://virajkadam.com';
 			</div>
 		</section>
 
-
-
-
-		<section id="survey" class="contact">
-			<div class="container" data-aos="fade-up">
-
-				<div class="section-title">
-					<h2>Survey</h2>
-				</div>
-
-				<div class="row mt-1">
-					<div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center">
-
-						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScEn2Fp9iZJhxWkfWdBhd9xQNQsmb9vj7NQr88GOCBNlJievQ/viewform?embedded=true" width="640" height="1400" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-					</div>
-				</div>
-			</div>
-		</section>
 	</main>
 
 
