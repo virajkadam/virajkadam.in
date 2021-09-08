@@ -1,5 +1,7 @@
 <?php
-$base_url = 'https://virajkadam.com';
+
+require_once('config.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -106,7 +108,7 @@ $base_url = 'https://virajkadam.com';
 
 				<div class="row">
 					<div class="col-lg-4">
-						<img src="assets/img/viraj-kadam.jpg" class="img-fluid" alt="">
+						<img src="<?=$base_url?>/assets/img/viraj-kadam.jpg" class="img-fluid" alt="">
 					</div>
 					<div class="col-lg-8 pt-4 pt-lg-0 content">
 						<h3>Web Development to Wild Explorer</h3>
@@ -117,6 +119,42 @@ $base_url = 'https://virajkadam.com';
 							Viraj Kadam loves teaching and programming by heart and by prooffesion too. Also being a nature lover Viraj Kadam loves to wander and trek in natures womb.
 						</p>
 					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+
+
+		<section id="services" class="services">
+			<div class="container aos-init aos-animate" data-aos="fade-up">
+
+				<div class="section-title">
+					<h2>Services</h2>
+				</div>
+
+				<div class="row">
+
+					<div class="col-lg-4 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+						<a href="<?=$base_url?>/project/salary-calculator.php">
+							<div class="icon-box iconbox-blue text-center">
+								<i style="color:#7B1FA2; font-size:10em;" class="fa fa-money"></i>
+								<h4 class="text-center"> Salary Calculator</h4>
+							</div>
+						</a>
+					</div>
+
+
+					<div class="col-lg-4 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+						<a href="<?=$base_url?>/project/stock-dividend-calculator.php">
+							<div class="icon-box iconbox-blue text-center">
+								<i style="color:#7B1FA2; font-size:10em;" class="fa fa-line-chart"></i>
+								<h4 class="text-center"> Stock Dividend Calculator</h4>
+							</div>
+						</a>
+					</div>
+
 				</div>
 
 			</div>

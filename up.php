@@ -38,9 +38,8 @@ if( isset($_POST['password']) && $_POST['password'] == '1234' ) {
 		<input class="btn btn-lg btn-success btn-block" type="submit" name="upload" value="UPLOAD">
 
 		<input class="btn btn-sm btn-danger" type="submit" name="clear_cache" value="Clear Cache" style="margin-top:10px;" >
-		
-		<p class="mt-5 bt-5 text-muted text-center"><?=$string?></p>
 
+		<p class="mt-5 bt-5 text-muted text-center"><?=$string?></p>
 	</form>
 </body>
 </html>
