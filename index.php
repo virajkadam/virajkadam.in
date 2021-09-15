@@ -155,6 +155,16 @@ require_once('config.php');
 						</a>
 					</div>
 
+
+					<div class="col-lg-4 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+						<a href="<?=$base_url?>/project/pinomic-calculator.php">
+							<div class="icon-box iconbox-blue text-center">
+								<i style="color:#df3f00; font-size:10em;" class="fa fa-rocket"></i>
+								<h4 class="text-center"> Pinomic Calculator</h4>
+							</div>
+						</a>
+					</div>
+
 				</div>
 
 			</div>
