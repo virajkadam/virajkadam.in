@@ -146,7 +146,7 @@ a:hover {
 
 #topbar .cta a {
 	color: #fff;
-	background: #f6b024;
+	background: #0880e8;
 	padding: 6px 24px 8px 24px;
 	display: inline-block;
 	transition: 0.3s;
@@ -629,7 +629,7 @@ section {
 }
 
 .icon-boxes .icon i {
-	font-size: 36px;
+	font-size: 41px;
 	line-height: 1;
 	color: #f6b024;
 }
@@ -1290,7 +1290,7 @@ section {
 
 .team .member .pic {
 	overflow: hidden;
-	width: 180px;
+	width: 250px;
 	border-radius: 50%;
 }
 
@@ -1309,7 +1309,7 @@ section {
 .team .member h4 {
 	font-weight: 700;
 	margin-bottom: 5px;
-	font-size: 20px;
+	font-size: 1.4em;
 	color: #05579e;
 }
 
@@ -1338,26 +1338,26 @@ section {
 }
 
 .team .member .social {
-	margin-top: 12px;
+	margin-top: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
 }
 
 .team .member .social a {
-	transition: ease-in-out 0.3s;
+	transition: ease-in-out .3s;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 50px;
-	width: 32px;
-	height: 32px;
+	width: 45px;
+	height: 45px;
 	background: #ecf6fe;
 	color: #0665b7;
 }
 
 .team .member .social a i {
-	font-size: 16px;
+	font-size: 22px;
 	margin: 0 2px;
 }
 
@@ -1367,7 +1367,7 @@ section {
 }
 
 .team .member .social a+a {
-	margin-left: 8px;
+	margin-left: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -1395,6 +1395,12 @@ section {
 
 .pricing h4 {
 	font-size: 36px;
+	color: #0880e8;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.pricing h5 {
 	color: #0880e8;
 	font-weight: 600;
 	margin-bottom: 20px;
