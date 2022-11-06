@@ -185,6 +185,7 @@ a:hover {
 
 #header .logo a {
 	color: #fff;
+	margin-left: 25px;
 }
 
 #header .logo img {
@@ -351,6 +352,7 @@ a:hover {
 	display: none;
 	line-height: 0;
 	transition: 0.5s;
+	margin-right: 10px;
 }
 
 .mobile-nav-toggle.bi-x {
