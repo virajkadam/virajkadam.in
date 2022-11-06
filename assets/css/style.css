@@ -347,7 +347,7 @@ a:hover {
 */
 .mobile-nav-toggle {
 	color: #fff;
-	font-size: 28px;
+	font-size: 40px;
 	cursor: pointer;
 	display: none;
 	line-height: 0;
@@ -383,7 +383,7 @@ a:hover {
 
 .navbar-mobile .mobile-nav-toggle {
 	position: absolute;
-	top: 15px;
+	top: 25px;
 	right: 15px;
 }
 
