@@ -1280,6 +1280,16 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
+.team table{
+	font-size: .8em;
+	text-align: left;
+}
+
+.team table td, .team table th {
+    border: none;
+}
+
 .team .member {
 	position: relative;
 	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -1294,16 +1304,17 @@ section {
 	border-radius: 50%;
 }
 
-.team .member .pic img {
-	transition: ease-in-out 0.3s;
+.team .member .pic img{
+	transition: ease-in-out .5s;
 }
 
-.team .member:hover img {
-	transform: scale(1.1);
+.team .member:hover img{
+	transform: scale(1.4);
 }
+
 
 .team .member .member-info {
-	padding-left: 30px;
+	padding-left: 60px;
 }
 
 .team .member h4 {
@@ -1345,7 +1356,7 @@ section {
 }
 
 .team .member .social a {
-	transition: ease-in-out .3s;
+	transition: ease-in-out .2s;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1369,6 +1380,7 @@ section {
 .team .member .social a+a {
 	margin-left: 14px;
 }
+
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1431,11 +1443,7 @@ section {
 	padding-bottom: 16px;
 }
 
-.pricing ul i {
-	color: #0880e8;
-	font-size: 18px;
-	padding-right: 4px;
-}
+
 
 .pricing ul .na {
 	color: #ccc;
