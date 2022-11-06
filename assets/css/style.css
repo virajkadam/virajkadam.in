@@ -347,7 +347,7 @@ a:hover {
 */
 .mobile-nav-toggle {
 	color: #fff;
-	font-size: 40px;
+	font-size: 35px;
 	cursor: pointer;
 	display: none;
 	line-height: 0;
@@ -1314,10 +1314,6 @@ section {
 	transform: scale(1.4);
 }
 
-
-.team .member .member-info {
-	padding-left: 60px;
-}
 
 .team .member h4 {
 	font-weight: 700;
