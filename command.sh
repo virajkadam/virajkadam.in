@@ -15,4 +15,4 @@ git pull origin master
 chmod -R 777 ../virajkadam.com/
 chown -R www-data:www-data ../virajkadam.com/
 
-git push
+git push origin HEAD:master
