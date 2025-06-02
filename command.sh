@@ -12,7 +12,7 @@ git commit -m "'$1'"
 
 git pull origin master
 
-chmod -R 777 ../virajkadam.com/
-chown -R www-data:www-data ../virajkadam.com/
+chmod -R 777 ../virajkadam.in/
+chown -R www-data:www-data ../virajkadam.in/
 
 git push origin HEAD:master
