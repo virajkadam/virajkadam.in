@@ -112,66 +112,58 @@ export default function Home() {
               <h2 className="text-2xl font-semibold text-gray-900 mb-6">
                 Professional Experience
               </h2>
-              <div className="p-6 ">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
-                  <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <Image
-                      src="/kotak-mahindra-bank-logo.png"
-                      alt="Kotak Mahindra Bank"
-                      width={60}
-                      height={60}
-                      className="object-contain"
-                    />
-                    <span className="font-medium">
-                      Kotak Mahindra Bank Ltd.
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <Image
-                      src="/nitor-infotech-logo.webp"
-                      alt="Nitor Infotech"
-                      width={60}
-                      height={60}
-                      className="object-contain"
-                    />
-                    <span className="font-medium">
-                      Nitor Infotech Pvt. Ltd.
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <Image
-                      src="/clover-infotech-logo.png"
-                      alt="Clover Infotech"
-                      width={60}
-                      height={60}
-                      className="object-contain"
-                    />
-                    <span className="font-medium">
-                      Clover Infotech Pvt. Ltd.
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <Image
-                      src="/infodeal-technologies-logo.png"
-                      alt="Infodeal Technologies"
-                      width={60}
-                      height={60}
-                      className="object-contain"
-                    />
-                    <span className="font-medium">
-                      Infodeal Technologies Pvt. Ltd.
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <Image
-                      src="/os3-infotech-logo.png"
-                      alt="OS3 Infotech"
-                      width={60}
-                      height={60}
-                      className="object-contain"
-                    />
-                    <span className="font-medium">OS3 Infotech Pvt. Ltd.</span>
-                  </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
+                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow h-20">
+                  <Image
+                    src="/kotak-mahindra-bank-logo.png"
+                    alt="Kotak Mahindra Bank"
+                    width={60}
+                    height={60}
+                    className="object-contain"
+                  />
+                  <span className="font-medium">Kotak Mahindra Bank Ltd.</span>
+                </div>
+                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow h-20">
+                  <Image
+                    src="/nitor-infotech-logo.webp"
+                    alt="Nitor Infotech"
+                    width={60}
+                    height={60}
+                    className="object-contain"
+                  />
+                  <span className="font-medium">Nitor Infotech Pvt. Ltd.</span>
+                </div>
+                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow h-20">
+                  <Image
+                    src="/clover-infotech-logo.png"
+                    alt="Clover Infotech"
+                    width={60}
+                    height={60}
+                    className="object-contain"
+                  />
+                  <span className="font-medium">Clover Infotech Pvt. Ltd.</span>
+                </div>
+                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow h-20">
+                  <Image
+                    src="/infodeal-technologies-logo.png"
+                    alt="Infodeal Technologies"
+                    width={60}
+                    height={60}
+                    className="object-contain"
+                  />
+                  <span className="font-medium">
+                    Infodeal Technologies Pvt. Ltd.
+                  </span>
+                </div>
+                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow h-20">
+                  <Image
+                    src="/os3-infotech-logo.png"
+                    alt="OS3 Infotech"
+                    width={60}
+                    height={60}
+                    className="object-contain"
+                  />
+                  <span className="font-medium">OS3 Infotech Pvt. Ltd.</span>
                 </div>
               </div>
             </div>
