@@ -1,5 +1,5 @@
-import { Mail, Github, Code2, Cloud, Terminal, Package } from 'lucide-react';
-import Image from 'next/image';
+import { Mail, Github, Code2, Cloud, Terminal, Package } from "lucide-react";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -10,14 +10,14 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <h1 className="text-xl font-bold text-gray-800">Viraj Kadam</h1>
             <div className="flex items-center space-x-4">
-              <a 
-                href="mailto:hiVirajKadam@gmail.com" 
+              <a
+                href="mailto:hiVirajKadam@gmail.com"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
               >
                 <Mail className="w-5 h-5" />
               </a>
-              <a 
-                href="https://github.com/virajkadam" 
+              <a
+                href="https://github.com/virajkadam"
                 className="text-gray-600 hover:text-gray-900 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -40,9 +40,10 @@ export default function Home() {
                   Technology Consultant
                 </h1>
                 <p className="text-xl text-gray-600 mb-8">
-                  Development, design and consult software and IT infrastructure solutions for Startups and MSMEs.
+                  Development, design and consult software and IT infrastructure
+                  solutions for Startups and MSMEs.
                 </p>
-                
+
                 {/* Service Tags */}
                 <div className="flex flex-wrap gap-4 mb-8">
                   <div className="flex items-center gap-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-full">
@@ -65,29 +66,34 @@ export default function Home() {
 
                 {/* Professional Details Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-               
-                    <h2 className="text-2xl font-semibold text-gray-900">Professional Details</h2>
-                    <div>
-                      <h3 className="text-lg font-medium text-gray-800">Industry Experience</h3>
-                      <p className="text-gray-600">8+ Years</p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-medium text-gray-800">Subject Expertise</h3>
-                      <p className="text-gray-600">PHP, Python, Web Development, Linux, Product Designing, Oracle DB, Machine Learning</p>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-medium text-gray-800">Current Organization</h3>
-                      <p className="text-gray-600">Kotak Mahindra Bank</p>
-                      <p className="text-gray-600">Data Analyst - Sr. Manager</p>
-                    </div>
+                  <h2 className="text-2xl font-semibold text-gray-900">
+                    Professional Details
+                  </h2>
+                  <div>
+                    <h3 className="text-lg font-medium text-gray-800">
+                      Industry Experience
+                    </h3>
+                    <p className="text-gray-600">8+ Years</p>
                   </div>
-                  
-                 
-            
+                  <div>
+                    <h3 className="text-lg font-medium text-gray-800">
+                      Subject Expertise
+                    </h3>
+                    <p className="text-gray-600">
+                      PHP, Python, Web Development, Linux, Product Designing,
+                      Oracle DB, Machine Learning
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-medium text-gray-800">
+                      Current Organization
+                    </h3>
+                    <p className="text-gray-600">Kotak Mahindra Bank</p>
+                    <p className="text-gray-600">Data Analyst - Sr. Manager</p>
+                  </div>
+                </div>
               </div>
 
-              
-              
               {/* YouTube Video */}
               <div className="lg:w-1/3">
                 <div className="relative aspect-video w-full overflow-hidden rounded-lg shadow-lg">
@@ -100,68 +106,75 @@ export default function Home() {
                   />
                 </div>
               </div>
-
-              
             </div>
 
             <div className="mt-10">
-                    <h2 className="text-2xl font-semibold text-gray-900">Professional Experience</h2>
-                    <div>
-                      <h3 className="text-lg font-medium text-gray-800">Organizations</h3>
-                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
-                        <div className="flex items-center gap-2 text-gray-600">
-                          <Image 
-                            src="/kotak-mahindra-bank-logo.png" 
-                            alt="Kotak Mahindra Bank" 
-                            width={24} 
-                            height={24} 
-                            className="object-contain"
-                          />
-                          Kotak Mahindra Bank Ltd.
-                        </div>
-                        <div className="flex items-center gap-2 text-gray-600">
-                          <Image 
-                            src="/nitor-infotech-logo.webp" 
-                            alt="Nitor Infotech" 
-                            width={24} 
-                            height={24} 
-                            className="object-contain"
-                          />
-                          Nitor Infotech Pvt. Ltd.
-                        </div>
-                        <div className="flex items-center gap-2 text-gray-600">
-                          <Image 
-                            src="/clover-infotech-logo.png" 
-                            alt="Clover Infotech" 
-                            width={24} 
-                            height={24} 
-                            className="object-contain"
-                          />
-                          Clover Infotech Pvt. Ltd.
-                        </div>
-                        <div className="flex items-center gap-2 text-gray-600">
-                          <Image 
-                            src="/infodeal-technologies-logo.png" 
-                            alt="Infodeal Technologies" 
-                            width={24} 
-                            height={24} 
-                            className="object-contain"
-                          />
-                          Infodeal Technologies Pvt. Ltd.
-                        </div>
-                        <div className="flex items-center gap-2 text-gray-600">
-                          <Image 
-                            src="/os3-infotech-logo.png" 
-                            alt="OS3 Infotech" 
-                            width={24} 
-                            height={24} 
-                            className="object-contain"
-                          />
-                          OS3 Infotech Pvt. Ltd.
-                        </div>
-                      </div>
-                    </div>
+              <h2 className="text-2xl font-semibold text-gray-900 mb-6">
+                Professional Experience
+              </h2>
+              <div className="p-6 ">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
+                  <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <Image
+                      src="/kotak-mahindra-bank-logo.png"
+                      alt="Kotak Mahindra Bank"
+                      width={60}
+                      height={60}
+                      className="object-contain"
+                    />
+                    <span className="font-medium">
+                      Kotak Mahindra Bank Ltd.
+                    </span>
                   </div>
+                  <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <Image
+                      src="/nitor-infotech-logo.webp"
+                      alt="Nitor Infotech"
+                      width={60}
+                      height={60}
+                      className="object-contain"
+                    />
+                    <span className="font-medium">
+                      Nitor Infotech Pvt. Ltd.
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <Image
+                      src="/clover-infotech-logo.png"
+                      alt="Clover Infotech"
+                      width={60}
+                      height={60}
+                      className="object-contain"
+                    />
+                    <span className="font-medium">
+                      Clover Infotech Pvt. Ltd.
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <Image
+                      src="/infodeal-technologies-logo.png"
+                      alt="Infodeal Technologies"
+                      width={60}
+                      height={60}
+                      className="object-contain"
+                    />
+                    <span className="font-medium">
+                      Infodeal Technologies Pvt. Ltd.
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <Image
+                      src="/os3-infotech-logo.png"
+                      alt="OS3 Infotech"
+                      width={60}
+                      height={60}
+                      className="object-contain"
+                    />
+                    <span className="font-medium">OS3 Infotech Pvt. Ltd.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -171,23 +184,40 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="bg-gray-50 rounded-xl p-6 transition-transform hover:scale-105">
                 <div className="text-3xl font-bold text-blue-600 mb-2">60+</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Projects</h3>
-                <p className="text-gray-600">Adapting and creating solutions for customer&apos;s needs</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  Projects
+                </h3>
+                <p className="text-gray-600">
+                  Adapting and creating solutions for customer&apos;s needs
+                </p>
               </div>
               <div className="bg-gray-50 rounded-xl p-6 transition-transform hover:scale-105">
                 <div className="text-3xl font-bold text-blue-600 mb-2">50%</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Web</h3>
-                <p className="text-gray-600">Applications development integrating third-party services and mobile client(s)</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  Web
+                </h3>
+                <p className="text-gray-600">
+                  Applications development integrating third-party services and
+                  mobile client(s)
+                </p>
               </div>
               <div className="bg-gray-50 rounded-xl p-6 transition-transform hover:scale-105">
                 <div className="text-3xl font-bold text-blue-600 mb-2">30%</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Technical solutions</h3>
-                <p className="text-gray-600">Such as web services, scripts, configurations</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  Technical solutions
+                </h3>
+                <p className="text-gray-600">
+                  Such as web services, scripts, configurations
+                </p>
               </div>
               <div className="bg-gray-50 rounded-xl p-6 transition-transform hover:scale-105">
                 <div className="text-3xl font-bold text-blue-600 mb-2">20%</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">Leading</h3>
-                <p className="text-gray-600">Web projects and ensure the quality of delivery</p>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  Leading
+                </h3>
+                <p className="text-gray-600">
+                  Web projects and ensure the quality of delivery
+                </p>
               </div>
             </div>
           </div>
@@ -196,49 +226,91 @@ export default function Home() {
         {/* Skills Section */}
         <section className="py-20 bg-gray-50" id="skills">
           <div className="container mx-auto px-6">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12">Skills & Expertise</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-12">
+              Skills & Expertise
+            </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-lg font-semibold text-gray-900">Web Application Frameworks</h3>
-                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">9+ years</span>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Web Application Frameworks
+                  </h3>
+                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
+                    9+ years
+                  </span>
                 </div>
-                <p className="text-gray-600">Laravel, Django, LAMP, MEAN, MERN stack development with production experience</p>
+                <p className="text-gray-600">
+                  Laravel, Django, LAMP, MEAN, MERN stack development with
+                  production experience
+                </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-lg font-semibold text-gray-900">Cloud Computing</h3>
-                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">6+ years</span>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Cloud Computing
+                  </h3>
+                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
+                    6+ years
+                  </span>
                 </div>
-                <p className="text-gray-600">AWS, DigitalOcean, Linode infrastructure management and deployment</p>
+                <p className="text-gray-600">
+                  AWS, DigitalOcean, Linode infrastructure management and
+                  deployment
+                </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-lg font-semibold text-gray-900">Linux & Open Source</h3>
-                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">6+ years</span>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Linux & Open Source
+                  </h3>
+                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
+                    6+ years
+                  </span>
                 </div>
-                <p className="text-gray-600">Scripting, Server management, Automation, and System Administration</p>
+                <p className="text-gray-600">
+                  Scripting, Server management, Automation, and System
+                  Administration
+                </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-lg font-semibold text-gray-900">Scripting Languages</h3>
-                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">Expert</span>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Scripting Languages
+                  </h3>
+                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
+                    Expert
+                  </span>
                 </div>
-                <p className="text-gray-600">PHP, JavaScript, Bash, Python, SQL with focus on backend development</p>
+                <p className="text-gray-600">
+                  PHP, JavaScript, Bash, Python, SQL with focus on backend
+                  development
+                </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-lg font-semibold text-gray-900">Open Source Technologies</h3>
-                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">Expert</span>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Open Source Technologies
+                  </h3>
+                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
+                    Expert
+                  </span>
                 </div>
-                <p className="text-gray-600">Linux, Automation tools, Web Scraping, Quantitative Analysis</p>
+                <p className="text-gray-600">
+                  Linux, Automation tools, Web Scraping, Quantitative Analysis
+                </p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
                 <div className="flex justify-between items-start mb-4">
-                  <h3 className="text-lg font-semibold text-gray-900">Business Analysis</h3>
-                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">Expert</span>
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    Business Analysis
+                  </h3>
+                  <span className="text-sm font-medium text-blue-600 bg-blue-50 px-3 py-1 rounded-full">
+                    Expert
+                  </span>
                 </div>
-                <p className="text-gray-600">Requirements gathering, System design, Technical documentation</p>
+                <p className="text-gray-600">
+                  Requirements gathering, System design, Technical documentation
+                </p>
               </div>
             </div>
           </div>
@@ -248,10 +320,12 @@ export default function Home() {
         <section className="py-20 bg-white" id="contact">
           <div className="container mx-auto px-6">
             <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-3xl font-bold text-gray-900 mb-8">Get in Touch</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-8">
+                Get in Touch
+              </h2>
               <div className="flex flex-col items-center space-y-6">
-                <a 
-                  href="mailto:hiVirajKadam@gmail.com" 
+                <a
+                  href="mailto:hiVirajKadam@gmail.com"
                   className="flex items-center space-x-3 text-gray-600 hover:text-blue-600 transition-colors"
                 >
                   <Mail className="w-5 h-5" />
