@@ -1,4 +1,5 @@
 import { Mail, Github, Code2, Cloud, Terminal, Package } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -109,23 +110,53 @@ export default function Home() {
                       <h3 className="text-lg font-medium text-gray-800">Organizations</h3>
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
                         <div className="flex items-center gap-2 text-gray-600">
-                          <img src="/kotak-mahindra-bank-logo.png" alt="Kotak Mahindra Bank" className="w-6 h-6 object-contain" />
+                          <Image 
+                            src="/kotak-mahindra-bank-logo.png" 
+                            alt="Kotak Mahindra Bank" 
+                            width={24} 
+                            height={24} 
+                            className="object-contain"
+                          />
                           Kotak Mahindra Bank Ltd.
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
-                          <img src="/nitor-infotech-logo.webp" alt="Nitor Infotech" className="w-6 h-6 object-contain" />
+                          <Image 
+                            src="/nitor-infotech-logo.webp" 
+                            alt="Nitor Infotech" 
+                            width={24} 
+                            height={24} 
+                            className="object-contain"
+                          />
                           Nitor Infotech Pvt. Ltd.
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
-                          <img src="/clover-infotech-logo.png" alt="Clover Infotech" className="w-6 h-6 object-contain" />
+                          <Image 
+                            src="/clover-infotech-logo.png" 
+                            alt="Clover Infotech" 
+                            width={24} 
+                            height={24} 
+                            className="object-contain"
+                          />
                           Clover Infotech Pvt. Ltd.
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
-                          <img src="/infodeal-technologies-logo.png" alt="Infodeal Technologies" className="w-6 h-6 object-contain" />
+                          <Image 
+                            src="/infodeal-technologies-logo.png" 
+                            alt="Infodeal Technologies" 
+                            width={24} 
+                            height={24} 
+                            className="object-contain"
+                          />
                           Infodeal Technologies Pvt. Ltd.
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
-                          <img src="/os3-infotech-logo.png" alt="OS3 Infotech" className="w-6 h-6 object-contain" />
+                          <Image 
+                            src="/os3-infotech-logo.png" 
+                            alt="OS3 Infotech" 
+                            width={24} 
+                            height={24} 
+                            className="object-contain"
+                          />
                           OS3 Infotech Pvt. Ltd.
                         </div>
                       </div>
