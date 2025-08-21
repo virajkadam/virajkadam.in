@@ -1,5 +1,4 @@
 import { Mail, Github, Code2, Cloud, Terminal, Package } from 'lucide-react';
-import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -113,16 +112,15 @@ export default function Home() {
                 </div>
               </div>
               
-              {/* Profile Image */}
+              {/* YouTube Video */}
               <div className="lg:w-1/3">
-                <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg shadow-lg">
-                  <Image 
-                    src="https://virajkadam.in/assets/profile-LoLyXFyb.jpg" 
-                    alt="Viraj Kadam - Business Analyst and Technology Consultant" 
-                    className="object-cover w-full h-full" 
-                    width={400} 
-                    height={533} 
-                    priority
+                <div className="relative aspect-video w-full overflow-hidden rounded-lg shadow-lg">
+                  <iframe
+                    src="https://www.youtube.com/embed/6DWgNpj0fac"
+                    title="YouTube video player"
+                    className="absolute inset-0 w-full h-full"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
                   />
                 </div>
               </div>
