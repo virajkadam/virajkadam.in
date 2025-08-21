@@ -64,7 +64,7 @@ export default function Home() {
 
                 {/* Professional Details Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                  <div className="space-y-6">
+               
                     <h2 className="text-2xl font-semibold text-gray-900">Professional Details</h2>
                     <div>
                       <h3 className="text-lg font-medium text-gray-800">Industry Experience</h3>
@@ -81,36 +81,11 @@ export default function Home() {
                     </div>
                   </div>
                   
-                  <div className="space-y-6">
-                    <h2 className="text-2xl font-semibold text-gray-900">Professional Experience</h2>
-                    <div>
-                      <h3 className="text-lg font-medium text-gray-800">Organizations</h3>
-                      <ul className="text-gray-600 space-y-2 mt-2">
-                        <li className="flex items-center gap-2">
-                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                          Kotak Mahindra Bank Ltd.
-                        </li>
-                        <li className="flex items-center gap-2">
-                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                          Nitor Infotech Pvt. Ltd.
-                        </li>
-                        <li className="flex items-center gap-2">
-                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                          Clover Infotech Pvt. Ltd.
-                        </li>
-                        <li className="flex items-center gap-2">
-                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                          Infodeal Technologies Pvt. Ltd.
-                        </li>
-                        <li className="flex items-center gap-2">
-                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                          OS3 Infotech Pvt. Ltd.
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
+                 
+            
               </div>
+
+              
               
               {/* YouTube Video */}
               <div className="lg:w-1/3">
@@ -124,7 +99,38 @@ export default function Home() {
                   />
                 </div>
               </div>
+
+              
             </div>
+
+            <div className="mt-10">
+                    <h2 className="text-2xl font-semibold text-gray-900">Professional Experience</h2>
+                    <div>
+                      <h3 className="text-lg font-medium text-gray-800">Organizations</h3>
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
+                        <div className="flex items-center gap-2 text-gray-600">
+                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                          Kotak Mahindra Bank Ltd.
+                        </div>
+                        <div className="flex items-center gap-2 text-gray-600">
+                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                          Nitor Infotech Pvt. Ltd.
+                        </div>
+                        <div className="flex items-center gap-2 text-gray-600">
+                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                          Clover Infotech Pvt. Ltd.
+                        </div>
+                        <div className="flex items-center gap-2 text-gray-600">
+                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                          Infodeal Technologies Pvt. Ltd.
+                        </div>
+                        <div className="flex items-center gap-2 text-gray-600">
+                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                          OS3 Infotech Pvt. Ltd.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
           </div>
         </section>
 
