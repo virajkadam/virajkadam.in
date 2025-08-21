@@ -109,23 +109,23 @@ export default function Home() {
                       <h3 className="text-lg font-medium text-gray-800">Organizations</h3>
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-2">
                         <div className="flex items-center gap-2 text-gray-600">
-                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                          <img src="/kotak-mahindra-bank-logo.png" alt="Kotak Mahindra Bank" className="w-6 h-6 object-contain" />
                           Kotak Mahindra Bank Ltd.
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
-                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                          <img src="/nitor-infotech-logo.webp" alt="Nitor Infotech" className="w-6 h-6 object-contain" />
                           Nitor Infotech Pvt. Ltd.
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
-                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                          <img src="/clover-infotech-logo.png" alt="Clover Infotech" className="w-6 h-6 object-contain" />
                           Clover Infotech Pvt. Ltd.
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
-                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                          <img src="/infodeal-technologies-logo.png" alt="Infodeal Technologies" className="w-6 h-6 object-contain" />
                           Infodeal Technologies Pvt. Ltd.
                         </div>
                         <div className="flex items-center gap-2 text-gray-600">
-                          <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                          <img src="/os3-infotech-logo.png" alt="OS3 Infotech" className="w-6 h-6 object-contain" />
                           OS3 Infotech Pvt. Ltd.
                         </div>
                       </div>
