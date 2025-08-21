@@ -1,4 +1,5 @@
 import { Mail, Github, Code2, Cloud, Terminal, Package } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -115,14 +116,14 @@ export default function Home() {
               {/* Profile Image */}
               <div className="lg:w-1/3">
                 <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg shadow-lg">
-                  <div className="w-full h-full bg-gradient-to-br from-blue-100 to-purple-100 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-32 h-32 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mx-auto mb-4 flex items-center justify-center">
-                        <span className="text-white text-3xl font-bold">VK</span>
-                      </div>
-                      <p className="text-gray-600">Profile Image</p>
-                    </div>
-                  </div>
+                  <Image 
+                    src="https://virajkadam.in/assets/profile-LoLyXFyb.jpg" 
+                    alt="Viraj Kadam - Business Analyst and Technology Consultant" 
+                    className="object-cover w-full h-full" 
+                    width={400} 
+                    height={533} 
+                    priority
+                  />
                 </div>
               </div>
             </div>
@@ -136,7 +137,7 @@ export default function Home() {
               <div className="bg-gray-50 rounded-xl p-6 transition-transform hover:scale-105">
                 <div className="text-3xl font-bold text-blue-600 mb-2">60+</div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">Projects</h3>
-                <p className="text-gray-600">Adapting and creating solutions for customer's needs</p>
+                <p className="text-gray-600">Adapting and creating solutions for customer&apos;s needs</p>
               </div>
               <div className="bg-gray-50 rounded-xl p-6 transition-transform hover:scale-105">
                 <div className="text-3xl font-bold text-blue-600 mb-2">50%</div>
@@ -221,9 +222,6 @@ export default function Home() {
                   <Mail className="w-5 h-5" />
                   <span>hiVirajKadam@gmail.com</span>
                 </a>
-                <button className="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors">
-                  Schedule a Consultation
-                </button>
               </div>
             </div>
           </div>
