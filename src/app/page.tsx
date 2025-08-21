@@ -34,7 +34,7 @@ export default function Home() {
         <section className="pt-32 pb-20 bg-gradient-to-b from-gray-50 to-white">
           <div className="container mx-auto px-6">
             <div className="flex flex-col lg:flex-row items-start gap-12">
-              <div className="flex-1">
+              <div className="flex-1 lg:h-[500px] lg:overflow-y-auto">
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                   Business Analyst &<br />
                   Technology Consultant
@@ -95,8 +95,8 @@ export default function Home() {
               </div>
 
               {/* YouTube Video */}
-              <div className="lg:w-1/3">
-                <div className="relative aspect-video w-full overflow-hidden rounded-lg shadow-lg">
+              <div className="lg:w-1/3 lg:h-[600px] flex items-center">
+                <div className="relative w-full aspect-video overflow-hidden rounded-lg shadow-lg">
                   <iframe
                     src="https://www.youtube.com/embed/6DWgNpj0fac"
                     title="YouTube video player"
