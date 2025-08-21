@@ -113,7 +113,7 @@ export default function Home() {
                 Professional Experience
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-4">
-                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow h-20">
+                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg border border-gray-200 h-20">
                   <Image
                     src="/kotak-mahindra-bank-logo.png"
                     alt="Kotak Mahindra Bank"
@@ -123,7 +123,7 @@ export default function Home() {
                   />
                   <span className="font-medium">Kotak Mahindra Bank Ltd.</span>
                 </div>
-                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow h-20">
+                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg border border-gray-200 h-20">
                   <Image
                     src="/nitor-infotech-logo.webp"
                     alt="Nitor Infotech"
@@ -133,7 +133,7 @@ export default function Home() {
                   />
                   <span className="font-medium">Nitor Infotech Pvt. Ltd.</span>
                 </div>
-                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow h-20">
+                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg border border-gray-200 h-20">
                   <Image
                     src="/clover-infotech-logo.png"
                     alt="Clover Infotech"
@@ -143,7 +143,7 @@ export default function Home() {
                   />
                   <span className="font-medium">Clover Infotech Pvt. Ltd.</span>
                 </div>
-                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow h-20">
+                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg border border-gray-200 h-20">
                   <Image
                     src="/infodeal-technologies-logo.png"
                     alt="Infodeal Technologies"
@@ -155,7 +155,7 @@ export default function Home() {
                     Infodeal Technologies Pvt. Ltd.
                   </span>
                 </div>
-                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow h-20">
+                <div className="flex items-center gap-3 text-gray-600 p-3 bg-white rounded-lg border border-gray-200 h-20">
                   <Image
                     src="/os3-infotech-logo.png"
                     alt="OS3 Infotech"
