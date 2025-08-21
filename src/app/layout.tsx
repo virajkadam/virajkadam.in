@@ -31,6 +31,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://virajkadam.in/index.html",
   },
+  icons: {
+    icon: "/icons/favicon.ico",
+    apple: "/icons/apple-touch-icon.png",
+  },
   other: {
     "revisit-after": "7 days",
     "googlebot": "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1",
@@ -55,8 +59,8 @@ export default function RootLayout({
         <link rel="shortlink" href="https://virajkadam.in/" />
         
         {/* Favicon */}
-        <link rel="icon" href="https://virajkadam.in/assets/viraj_kadam_logo.jpg" />
-        <link rel="apple-touch-icon" href="https://virajkadam.in/assets/viraj_kadam_logo.jpg" />
+        <link rel="icon" href="/icons/favicon.ico" />
+        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
         
         {/* Open Graph Additional */}
         <meta property="og:image:alt" content="Viraj Kadam Image" />
