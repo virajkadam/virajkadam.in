@@ -1,0 +1,20 @@
+<!-- Primary Meta Tags -->
+<title>Viraj Kadam | Viraj Kadam Software Developer | Contact Viraj Kadam | hiVirajKadam</title>
+<meta name="title" content="Viraj Kadam | Viraj Kadam Software Developer | Contact Viraj Kadam | hiVirajKadam" />
+<meta name="description" content="Viraj Kadam is an Technology Lead, Passionate Learner & Educator" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://virajkadam.in/" />
+<meta property="og:title" content="Viraj Kadam | Viraj Kadam Software Developer | Contact Viraj Kadam | hiVirajKadam" />
+<meta property="og:description" content="Viraj Kadam is an Technology Lead, Passionate Learner & Educator" />
+<meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+<!-- X (Twitter) -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="https://virajkadam.in/" />
+<meta property="twitter:title" content="Viraj Kadam | Viraj Kadam Software Developer | Contact Viraj Kadam | hiVirajKadam" />
+<meta property="twitter:description" content="Viraj Kadam is an Technology Lead, Passionate Learner & Educator" />
+<meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
+<!-- Meta Tags Generated with https://metatags.io -->
