@@ -98,7 +98,7 @@ export default function Home() {
               <div className="lg:w-1/3 lg:h-[600px] flex items-center">
                 <div className="relative w-full aspect-video overflow-hidden rounded-lg shadow-lg">
                   <iframe
-                    src="https://www.youtube.com/embed/6DWgNpj0fac?autoplay=1&mute=1&modestbranding=1"
+                    src="https://www.youtube.com/embed/6DWgNpj0fac?autoplay=1&mute=1&modestbranding=1&loop=1&playlist=6DWgNpj0fac"
                     title="YouTube video player"
                     className="absolute inset-0 w-full h-full"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
