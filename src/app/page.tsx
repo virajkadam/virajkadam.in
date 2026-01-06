@@ -332,7 +332,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-50 py-8">
         <div className="container mx-auto px-6 text-center text-gray-600">
-          <p>© 2025 Viraj Kadam. All rights reserved.</p>
+          <p>© 2026 Viraj Kadam. All rights reserved.</p>
         </div>
       </footer>
     </div>
